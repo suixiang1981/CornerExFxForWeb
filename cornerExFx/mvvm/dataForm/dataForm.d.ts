@@ -1,0 +1,35 @@
+import { Form } from "../../controls/form/form";
+import { MVVMListInfo } from "../../mvvm/mvvmBase";
+import { TitleWindow } from "../../containers/titleWindow/titleWindow";
+export declare class DataForm extends Form {
+    private id;
+    private dataFormPreview;
+    private _listDataName;
+    private isEditMode;
+    private httpClient;
+    browseFieldOpenFunction: (titieWindow: TitleWindow, field: string) => void;
+    browseFieldSelectedFunction: (field: string) => string;
+    callFunction: (value: string, field: string) => void;
+    protected showProgress: boolean;
+    constructor(name: string, isEditMode?: boolean, port?: number, isListMode?: boolean, showProgress?: boolean);
+    readonly listDataName: string;
+    private year;
+    private month;
+    load(id?: string, year?: number, month?: number): void;
+    loadFromMVVMListInfo(info: MVVMListInfo): void;
+    private info;
+    dataFunction: (id: string) => Element;
+    protected loadData(): void;
+    private loadFieldControls;
+    private loadFieldI;
+    private setField;
+    private loadFieldControlsFromMVVMFieldList;
+    private loadListSelectFieldData;
+    private loadListSelectFieldInfo;
+    private loadListSelectFieldValue;
+    listSelectFieldWhereFunction: (field: string) => string;
+    private getXMLStr;
+    save(callback?: any): void;
+    protected _enabled: boolean;
+    enabled: boolean;
+}

@@ -1,0 +1,36 @@
+﻿.groupItem {
+    position: absolute;
+    transition: opacity linear 200ms;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color:#FF0000;
+    width:100px;
+    height:100px;
+}
+    .groupItem:hover {
+        opacity: 0.6;
+    }
+    .groupItem:active {
+        opacity: 1;
+    }
+.groupItemIcon {
+    position: absolute;
+    top: 5px;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    pointer-events: none;
+    margin-left: -32px;
+}
+.groupItemLabel {
+    position: absolute;
+    bottom: 5px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: bold;
+    left: 5px;
+    right: 5px;
+    pointer-events: none;
+    color: #FFFFFF;
+}

@@ -1,0 +1,21 @@
+﻿.fieldBrowseDiv {
+    background-color: color(LightBlue,700);
+    position: absolute;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    right: 0px;
+    top: 0px;
+    overflow: hidden;
+    transition: background-color linear 200ms;
+    color: #FFFFFF;
+}
+    .fieldBrowseDiv:hover {
+        background-color: color(LightBlue,500);
+    }
+    .fieldBrowseDiv:active {
+        background-color: color(LightBlue,700);
+    }

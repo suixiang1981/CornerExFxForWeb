@@ -1,0 +1,30 @@
+import { DisplayObjectContainer } from "../../core/displayObjectContainer";
+import { Scroller } from "../../controls/scroller/scroller";
+import { DisplayObject } from "../../core/displayObject";
+export declare class ScrollPanel extends DisplayObjectContainer {
+    private _vScroller;
+    private _hScroller;
+    private scrollPanel;
+    private timerHandler;
+    private pW;
+    private pH;
+    private ipW;
+    private ipH;
+    readonly vScroller: Scroller;
+    readonly hScroller: Scroller;
+    protected isDark: boolean;
+    private static isCSSLoaded;
+    constructor(isDark?: boolean);
+    private _myTimeHaneld;
+    refresh(): void;
+    refreshCancel: boolean;
+    private refreshFunction;
+    addChild(child: DisplayObject): void;
+    removeChild(child: DisplayObject): void;
+    private _lineHeight;
+    lineHeight: number;
+    private _isHScroll;
+    isHScroll: boolean;
+    private _isVScroll;
+    isVScroll: boolean;
+}

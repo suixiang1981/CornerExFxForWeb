@@ -1,0 +1,40 @@
+﻿ 
+    .messageBoxIcon {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left:5px;
+        top:5px;
+    }
+    .messageBoxBody {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    #messageBoxLabel {
+        position: absolute;
+        top:15px;
+        left:74px;
+        bottom:5px;
+        right:5px;
+    }
+    .messageBoxInnerPanel {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 38px;
+    }
+
+    .messageBoxBottom {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 38px;
+        text-align: center;
+    }
+
+ 
+
+    

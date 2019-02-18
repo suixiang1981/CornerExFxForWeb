@@ -1,0 +1,56 @@
+﻿    .fieldNumberUnitDiv {
+        position: absolute;
+        top: 0px;
+        right: 22px;
+        height: 30px;
+        line-height:30px;
+        color: #444444;
+    }
+    
+    .fieldNumberImage {
+        position: absolute;
+        top: -2px;
+        width: 17px;
+        height: 17px;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+    }
+    .fieldNumberUpDiv {
+        background-color: color(LightBlue,700);
+        position: absolute;
+        border-top-right-radius: 2px;
+        width: 17px;
+        height: 15px;
+        right: 0px;
+        top: 0px;
+        transition: background-color linear 200ms;
+        overflow: hidden;
+    }
+        .fieldNumberUpDiv:hover {
+            background-color: color(LightBlue,500);
+        }
+        .fieldNumberUpDiv:active {
+            background-color: color(LightBlue,700);
+        }
+    .fieldNumberDownDiv {
+        background-color: color(LightBlue,700);
+        position: absolute;
+        border-bottom-right-radius: 2px;
+        width: 17px;
+        height: 15px;
+        right: 0px;
+        top: 15px;
+        transition: background-color linear 200ms;
+        overflow: hidden;
+    }
+
+        .fieldNumberDownDiv:hover {
+            background-color: color(LightBlue,500);
+        }
+
+        .fieldNumberDownDiv:active {
+            background-color: color(LightBlue,700);
+        }

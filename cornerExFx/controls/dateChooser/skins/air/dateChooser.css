@@ -1,0 +1,285 @@
+﻿
+    .dataChooserBody {
+        width: 268px;
+        height: 305px;
+        background-color: #FFFFFF;
+    }
+    .dataChooserLine {
+        width:266px;
+        height:40px;
+        padding-left: 1px;
+    }
+.dataChooserLineWeek {
+    width: 266px;
+    height: 30px;
+    padding-left: 1px;
+}
+.dataChooserLineTop {
+    width: 262px;
+    height: 23px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #eeeeee;
+}
+
+.dataChooserToolButton {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: background-color linear 200ms;
+    cursor: default;
+    overflow: hidden;
+}
+
+    .dataChooserToolButton:hover {
+        border: 1px solid color(LightBlue,500);
+    }
+
+    .dataChooserToolButton:active {
+        border: 1px solid #81d4fa;
+        background-color: #81d4fa;
+    }
+
+.dataChooserButton {
+    color: #000000;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background-image: url(cornerExFx/materialDesign/lightBlue/halo.png);
+    background-size: 0px 0px;
+    background-position: 17px 17px;
+    background-repeat: no-repeat;
+    border-radius: 19px;
+    border: 1px solid transparent;
+    /*line-height: 34px;*/
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: all linear 200ms;
+    cursor: default;
+}
+    .dataChooserButton:hover {
+        background-color: rgba(179, 229, 252, 0.50);
+    }
+
+    .dataChooserButton:active {
+        background-size: 38px 38px;
+        background-position: -2px -2px;
+    }
+
+.dataChooserButtonB {
+    color: #888888;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 19px;
+    border: 1px solid transparent;
+    background-image: url(cornerExFx/controls/dateChooser/skins/air/halo.png);
+    background-size: 0px 0px;
+    background-position: 17px 17px;
+    background-repeat: no-repeat;
+    /*line-height: 34px;*/
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: all linear 200ms;
+    cursor: default;
+}
+.dataChooserButtonB:hover {
+    background-color: rgba(179, 229, 252, 0.50);
+}
+
+.dataChooserButtonB:active {
+    background-size: 38px 38px;
+    background-position: -2px -2px;
+}
+.dataChooserButtonNow {
+    color: #000000;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 19px;
+    border: 1px solid #81d4fa;
+    background-image: url(cornerExFx/controls/dateChooser/skins/air/halo.png);
+    background-size: 0px 0px;
+    background-position: 17px 17px;
+    background-repeat: no-repeat;
+    /*line-height: 34px;*/
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: all linear 200ms;
+    cursor: default;
+}
+    .dataChooserButtonNow:hover {
+        background-color: rgba(179, 229, 252, 0.50);
+    }
+
+    .dataChooserButtonNow:active {
+        background-size: 38px 38px;
+        background-position: -2px -2px;
+    }
+.dataChooserButtonSelected {
+    color: #000000;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 19px;
+    border: 1px solid #81d4fa;
+    background-color: #81d4fa;
+    background-image: url(cornerExFx/controls/dateChooser/skins/air/halo.png);
+    background-size: 0px 0px;
+    background-position: 17px 17px;
+    background-repeat: no-repeat;
+    /*line-height: 34px;*/
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: none;
+    cursor: default;
+}
+   
+
+.dataChooserLabel {
+    display: inline-block;
+    height: 21px;
+    border: 1px solid transparent;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: background-color linear 200ms;
+    cursor: default;
+    overflow: hidden;
+}
+
+.dataChooserYear {
+    display: inline-block;
+    width: 25px;
+    height: 21px;
+    width: 34px;
+    border: 1px solid transparent;
+    line-height: 19px;
+    text-align: center;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: background-color linear 200ms;
+    cursor: default;
+    overflow: hidden;
+}
+
+.dataChooserMonth {
+    display: inline-block;
+    height: 21px;
+    width: 17px;
+    border: 1px solid transparent;
+    line-height: 19px;
+    text-align: center;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    transition: background-color linear 200ms;
+    cursor: default;
+    overflow: hidden;
+}
+
+.dataChooserSplit {
+    display: inline-block;
+    height: 21px;
+    width: 13px;
+    border: 1px solid transparent;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+    overflow: hidden;
+}
+
+    .dataChooserWeek {
+        display: inline-block;
+        height: 30px;
+        width: 34px;
+        line-height: 30px;
+        border: 1px solid transparent;
+        margin-left: 1px;
+        margin-right: 1px;
+        text-align: center;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        cursor: default;
+    }
+.dataChooserNumber {
+    font-size: 16px;
+    line-height:18px;
+    margin:0px;
+    pointer-events:none;
+}
+.dataChooserNongLi {
+    font-size:9px;
+    line-height:9px;
+    margin:0px;
+    pointer-events:none;
+}
+.dataChooserToolIcon {
+    pointer-events:none;
+    width:15px;
+    height:15px;
+    margin:3px;
+    /*position:absolute;
+    left:2px;
+    top:2px;*/
+}
+.dataChooserTag {
+    pointer-events: none;
+    width: 3px;
+    height: 3px;
+    /*margin-left:-2.5px;*/
+    border-radius: 2px;
+    /*left:50%;*/
+    margin-left: 16.5px;
+    margin-top: 3px;
+    /*position:absolute;
+    left:2px;
+    top:2px;*/
+}

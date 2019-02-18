@@ -1,0 +1,25 @@
+﻿.phoneFieldCallDiv {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+    top:3px;
+    right:3px;
+}
+
+    .phoneFieldCallDiv:hover {
+        background-color: #60D9FE;
+    }
+
+    .phoneFieldCallDiv:active {
+        background-color: #40B9DE;
+    }
+
+.phoneFieldCallIcon {
+    width: 16px;
+    height: 16px;
+    left: 4px;
+    top: 4px;
+    position: absolute;
+}

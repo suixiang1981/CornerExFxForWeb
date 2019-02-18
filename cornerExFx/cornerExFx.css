@@ -1,0 +1,27 @@
+﻿@media print {
+    @page {
+        size: auto;
+        margin: 0mm;
+    }
+}
+body {
+    touch-action: none;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: medium;
+    overflow: hidden;
+    user-select: none;
+}
+*:focus {
+    outline: none
+}
+/*input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset !important;
+}*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+    -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+}

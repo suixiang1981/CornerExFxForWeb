@@ -1,0 +1,48 @@
+﻿.seriesBar {
+    height:40px;
+}
+.seriesBarButton {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    top: 8px;
+}
+
+.seriesBarButton:hover {
+    background-color: #60D9FE;
+    border: 1px solid color(LightBlue,500);
+}
+
+.seriesBarButton:active {
+    background-color: #40B9DE;
+    border: 1px solid color(LightBlue,500);
+}
+
+.seriesBarButtonIcon {
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+}
+#seriesBarAddButton {
+    right:40px;
+}
+#seriesBarDelButton {
+    right: 5px;
+    visibility: visible;
+    display: inline;
+}
+
+#seriesBarAddButtonB {
+    right: 5px;
+}
+
+#seriesBarDelButtonB {
+    visibility:hidden;
+    display:none;
+}
+ 

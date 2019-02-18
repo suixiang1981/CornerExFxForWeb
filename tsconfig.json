@@ -1,0 +1,11 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",                       
+    "module": "amd", 
+    "strict": true,                       
+    "esModuleInterop": false,                
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "strictFunctionTypes":false,
+  }
+}

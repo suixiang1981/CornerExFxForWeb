@@ -1,0 +1,54 @@
+﻿.workFlowStepTitleNumber {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: color(LightBlue,700);
+    text-align: center;
+    pointer-events: none;
+    color: #FFFFFF;
+}
+.workFlowStepTitleLabel {
+    position: absolute;
+    left: 35px;
+    line-height: 30px;
+    pointer-events: none;
+    height: 30px;
+}
+.workFlowStepTitleEditLabel {
+    position: absolute;
+    right: 30px;
+    line-height: 30px;
+    height: 30px;
+    pointer-events: none;
+    margin-right: 10px;
+}
+.workFlowStepTitle {
+    position: absolute;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+}
+.workFlowStepTitleExpand {
+    position: absolute;
+    right: 3px;
+    top:3px;
+    line-height: 24px;
+    height: 24px;
+    width:24px;
+    border-radius:12px;
+    background-color: #BBBBBB;
+    transition:background-color linear 200ms;
+}
+.workFlowStepTitleExpand:hover {
+    background-color: #CCCCCC;
+}
+
+.workFlowStepTitleExpandIcon {
+    position: absolute;
+    width:20px;
+    height: 20px;
+    left:2px;
+    top:2px;
+    pointer-events:none;
+}

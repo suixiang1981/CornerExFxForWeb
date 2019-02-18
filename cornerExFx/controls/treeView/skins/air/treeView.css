@@ -1,0 +1,12 @@
+﻿    .listItemDisclosureIcon {
+        position: absolute;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        visibility: hidden;
+        padding-left: 5px;
+        padding-top: 5px;
+        width: 20px;
+        height: 20px;
+    }

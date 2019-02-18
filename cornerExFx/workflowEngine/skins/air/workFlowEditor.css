@@ -1,0 +1,13 @@
+﻿.workFlowEditorBottom {
+    background-color:#DDDDDD;
+    position:absolute;
+    width:100%;
+    height:45px;
+    bottom:0px;
+    visibility:hidden;
+    display:none;
+}
+.workFlowEditorBody {
+    background-color:#FFFFFF;
+    position:absolute;
+}

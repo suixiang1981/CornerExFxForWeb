@@ -1,0 +1,19 @@
+﻿.button {
+    position: absolute;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    transition: all linear 200ms;
+    border-radius: 2px;
+    pointer-events: auto;
+    cursor: default;
+    overflow: hidden;
+}
+#buttonLabel {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    pointer-events: none;
+    text-align:center;
+}

@@ -1,0 +1,53 @@
+﻿.tile {
+    position: absolute;
+    transition: opacity linear 200ms;
+    opacity: 0.8;
+    border-radius:3px;
+    
+}
+    .tile:hover {
+        opacity: 0.9;
+    }
+    .tile:active {
+        opacity: 1;
+    }
+.tileIcon {
+    position: absolute;
+    top: 5px;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    pointer-events: none;
+    margin-left: -32px;
+}
+.tileImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events:none;
+}
+.tileLabel {
+    position: absolute;
+    bottom: 5px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: bold;
+    left: 5px;
+    right: 5px;
+    pointer-events: none;
+    color: #FFFFFF;
+}
+.tileNumber {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgb(211, 47, 47);
+    border-radius: 16px;
+    border: 1px solid #FFFFFF;
+    pointer-events: none;
+    text-align: center;
+}

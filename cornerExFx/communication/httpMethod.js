@@ -1,0 +1,1 @@
+define(["require","exports"],function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:true});var E;(function(e){e["GET"]="GET";e["HEAD"]="HEAD";e["POST"]="POST";e["OPTIONS"]="OPTIONS";e["PUT"]="PUT";e["DELETE"]="DELETE";e["TRACE"]="TRACE";e["CONNECT"]="CONNECT"})(E=t.HttpMethod||(t.HttpMethod={}))});

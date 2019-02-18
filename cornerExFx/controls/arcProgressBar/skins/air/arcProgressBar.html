@@ -1,0 +1,67 @@
+﻿<div class="arcProgressBarBody" dialBodyColor="#3367D6" dialScaleBackgroundColor="#2850A7" dialScaleColor="#FFFFFF">
+    <div><canvas class="arcProgressBarCanvas" /></div>
+    <div class="arcProgressBarProgressLabel"><span class="arcProgressBarFontSmall"></span><span class="arcProgressBarFontBig">12</span><span class="arcProgressBarFontSmall">%</span></div>
+    <div class="arcProgressBarLabel">请稍候...</div>
+</div>
+<style>
+    .arcProgressBarBody {
+        width: 200px;
+        height: 200px;
+    }
+
+    .arcProgressBarCanvas {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        opacity:.9;
+    }
+
+    .arcProgressBarProgressLabel {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        height: 60px;
+        line-height: 60px;
+        margin-top: -40px;
+        text-align: center;
+    }
+
+    .arcProgressBarLabel {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    .arcProgressBarLabelMiddle {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        height: 30px;
+        line-height: 30px;
+        margin-top: -15px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    .arcProgressBarFontBig {
+        color: #FFFFFF;
+        font-size: 60px;
+    }
+
+    .arcProgressBarFontSmall {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+</style>

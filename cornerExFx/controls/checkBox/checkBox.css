@@ -1,0 +1,30 @@
+﻿.checkBoxBody {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    transition: all linear 200ms;
+}
+#checkBox {
+    position: absolute;
+    pointer-events:none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius:2px;
+    left:15px;
+    top:15px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    transition: all linear 200ms;
+}
+#checkBoxLabel {
+    position: absolute;
+    pointer-events: none;
+    left: 40px;
+    top: 16px;
+    right: 0px;
+    height: 16px;
+    line-height: 16px;
+}

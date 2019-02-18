@@ -1,0 +1,41 @@
+﻿.radioButtonBody {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    transition: all linear 200ms;
+}
+
+#radioButton {
+    position: absolute;
+    pointer-events: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 10px;
+    left: 15px;
+    top: 15px;
+    transition: all linear 200ms;
+}
+
+#radioButtonCenter {
+    position: absolute;
+    pointer-events: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    left: 2px;
+    top: 2px;
+    transition: all linear 200ms;
+}
+
+#radioButtonLabel {
+    position: absolute;
+    pointer-events: none;
+    left: 40px;
+    top: 16px;
+    right: 0px;
+    height: 16px;
+    line-height: 16px;
+}

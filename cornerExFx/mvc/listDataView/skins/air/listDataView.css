@@ -1,0 +1,229 @@
+﻿.listDataViewMain {
+    position: absolute;
+    right: 40px;
+    left: 0px;
+    top: 0px;
+    bottom: 25px;
+    transition: top linear 200ms;
+}
+.toolSplit {
+    width: 34px;
+    height: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid rgba(128, 128, 128, 1);
+}
+.listDataViewMainMove {
+    position: absolute;
+    right: 40px;
+    left: 0px;
+    top: 0px;
+    bottom: 25px;
+    transition: all 0 ease 0;
+}
+.listDataViewToolbar {
+    position: absolute;
+    right: 0px;
+    width: 39px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #F2F2F2;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+}
+    .toolbuttonIcon {
+        margin: 6px;
+        width: 24px;
+        height: 24px;
+    }
+.toolButtonSelected {
+    width: 36px;
+    height: 36px;
+    margin: 2px;
+    border-radius: 2px;
+    opacity: .7;
+    transition: background-color linear 200ms;
+    background-color: #039BE5;
+}
+
+    .toolButtonSelected:hover {
+        background-color: color(LightBlue,500);
+    }
+
+    .toolButtonSelected:active {
+        background-color: #0277BD;
+    }
+    .toolButton {
+        width: 36px;
+        height: 36px;
+        margin: 2px;
+        border-radius: 2px;
+        opacity:.7;
+        transition: background-color linear 200ms;
+    }
+        .toolButton:hover {
+            background-color: #81D4FA;
+        }
+        .toolButton:active {
+            background-color: #039BE5;
+        }
+.toolButtonDisabled {
+    width: 36px;
+    height: 36px;
+    margin: 2px;
+    border-radius: 2px;
+    transition: background-color linear 200ms;
+    pointer-events: none;
+    opacity: .5;
+}
+.listDataViewPageBar {
+    position: absolute;
+    right: 40px;
+    left: 0px;
+    height: 25px;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(224, 224, 224, 1);
+}
+.listDataViewPageBarButtonDisabled {
+    float: left;
+    width: 21px;
+    height: 21px;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    pointer-events:none;
+    opacity:.5;
+}
+ 
+.listDataViewPageBarButton {
+    float: left;
+    width: 21px;
+    height: 21px;
+    border-radius: 2px;
+    margin-top: 2px;
+    pointer-events: auto;
+    opacity: 1;
+    margin-left: 2px;
+}
+    .listDataViewPageBarButton:hover {
+        background-color: #80CEE6;
+    }
+
+    .listDataViewPageBarButton:active {
+        background-color: #408EA6;
+    }
+.listDataViewPageBarIcon {
+    width: 17px;
+    height: 17px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+
+.listDataViewPageBarPage {
+    float: left;
+    height: 21px;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 50px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px #888888 inset;
+    border-radius: 1px;
+}
+.listDataViewPageBarInfo {
+    position:absolute;
+    height: 25px;
+    line-height: 25px;
+    right:5px;
+}
+.listDataViewPageBarPageInput {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    left: -1px;
+    top: -6px;
+    padding-left: 3px;
+    border: hidden;
+    outline: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: medium;
+    pointer-events: auto;
+    color: #000000;
+    border: hidden;
+}
+.listDataViewPageBarPageInputDisabled {
+    position: relative;
+    height: 30px;
+    border: hidden;
+    line-height: 30px;
+    width: 50px;
+    left: -1px;
+    top: -6px;
+    padding-left: 3px;
+    border: hidden;
+    outline: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: medium;
+    pointer-events: none;
+    color: #444444;
+}
+.listDataViewPageBarPageCount {
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    left: 105px;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.listDataViewSearchBar {
+    position: absolute;
+    right: 40px;
+    left: 0px;
+    top: 0px;
+    height: 0px;
+    visibility: hidden;
+    display: none;
+    transition: height linear 200ms;
+    background-color: #EEEEEE;
+}
+.searchBarButton {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    top: 8px;
+}
+
+    .searchBarButton:hover {
+        background-color: #60D9FE;
+        border: 1px solid color(LightBlue,500);
+    }
+
+    .searchBarButton:active {
+        background-color: #40B9DE;
+        border: 1px solid color(LightBlue,500);
+    }
+
+.searchBarButtonIcon {
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+}
+#searchBarAddButton {
+    left:730px;
+}
+#searchBarDelButton {
+    left:760px;
+}
+.chartPanelHandle {
+    background-color: #DDDDDD;
+}
+ 

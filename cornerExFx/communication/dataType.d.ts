@@ -1,0 +1,21 @@
+export declare enum DataType {
+    DATA = 0,
+    TEXT = 1,
+    CSS = 2,
+    JS = 3,
+    HTML = 4,
+    XML = 5,
+    IMAGE = 6,
+    TGA = 7,
+    BMP = 8,
+    DOC = 9,
+    RTF = 10,
+    DOCX = 11,
+    XLS = 12,
+    CSV = 13,
+    XLSX = 14,
+    PPT = 15,
+    PPTX = 16,
+    PDF = 17,
+    ZIP = 18
+}

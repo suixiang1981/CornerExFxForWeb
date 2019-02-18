@@ -1,0 +1,86 @@
+﻿.scrollerBody {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.hScrollerUp {
+    
+    position: absolute;
+    height: 100%;
+    width: 17px;
+    top: 0px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    /*background-color: #3367D6;
+    transition: background-color linear 200ms;*/
+}
+
+    /*.hScrollerUp:hover {
+        background-color: color(LightBlue,700);
+    }
+
+    .hScrollerUp:active {
+        background-color: #3367D6;
+    }*/
+
+.hScrollerDown {
+    position: absolute;
+    height: 100%;
+    width: 17px;
+    right: 0px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    /*background-color: #3367D6;
+    transition: background-color linear 200ms;*/
+}
+
+    /*.hScrollerDown:hover {
+        background-color: color(LightBlue,700);
+    }
+
+    .hScrollerDown:active {
+        background-color: #3367D6;
+    }*/
+
+.hScrollerHandle {
+    position: absolute;
+    height: 9px;
+    width: 100px;
+    left: 17px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    background-color: #DDDDDD;
+    transition: background-color linear 200ms;
+    border-radius:5px;
+    top:4px;
+}
+    .hScrollerHandle:hover {
+        background-color: #BBBBBB;
+    }
+    .hScrollerHandle:active {
+        background-color: #BBBBBB;
+    }
+.hScrollerButtonImg {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 50%;
+    margin-top: -8.5px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+}

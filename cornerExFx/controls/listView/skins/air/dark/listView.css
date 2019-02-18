@@ -1,0 +1,83 @@
+﻿.listViewSplitLine {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    /*background-color: #888888;*/
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+}
+
+    .listViewTitlePanelDark {
+        width: 100%;
+        height: 30px;
+        overflow: hidden;
+    }
+.listViewTitleOrderDark {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 3px;
+    margin-top: -8px;
+    top: 50%;
+    pointer-events: none;
+}
+.listViewTitleDark {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: #FFFFFF;
+    /*margin-top: -3px;*/
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #004E66;
+    /*border-bottom: 3px solid;*/
+    /*border-bottom-color: color(LightBlue,700);*/
+    transition: background-color  linear 200ms;
+}
+
+        .listViewTitleDark:hover {
+            border-bottom-color: color(LightBlue,500);
+            background-color: #006E86;
+        }
+    .listViewTitleDark:active {
+        border-bottom-color: #039be5;
+        background-color: #002E46;
+    }
+
+.listViewItemPanelDark {
+    width: 100%;
+    height: 30px;
+    position: static;
+    overflow: hidden;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    overflow: hidden;
+    -webkit-user-select: none;
+    transition: background-color linear 200ms,height linear 100ms;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+    .listViewItemPanelDark:hover {
+        background-color: #B3E5FC;
+    }
+
+.listViewItemSelectedPanelDark {
+    width: 100%;
+    height: 30px;
+    position: static;
+    overflow: hidden;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    overflow: hidden;
+    -webkit-user-select: none;
+    /*transition: background-color,height linear,linear 200ms,200ms;*/
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    background-color: #81D4FA;
+}

@@ -1,0 +1,1 @@
+define(["require","exports"],function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:true});var r=function(){function e(){this.type=a.String}return e}();t.MVVMField=r;var a;(function(e){e["Number"]="Number";e["String"]="String";e["Date"]="Date";e["Boolean"]="Boolean";e["Buffer"]="Buffer"})(a=t.DatabaseDataType||(t.DatabaseDataType={}))});

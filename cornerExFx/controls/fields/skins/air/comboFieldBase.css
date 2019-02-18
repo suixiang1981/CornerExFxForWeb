@@ -1,0 +1,65 @@
+﻿.fieldComboPopupPanel {
+    position: absolute;
+    height: 0px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    /*border: 1px solid color(LightBlue,700);*/
+    box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+    transition: height linear 200ms;
+    overflow: hidden;
+    visibility: hidden;
+    display: none;
+}
+    .fieldPopupButtonImage {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        pointer-events: none;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        top:7px;
+        left:0px;
+    }
+    
+    .fieldPopupButtonDiv {
+        position: absolute;
+        width: 17px;
+        right: 0px;
+        top: 0px;
+        height:30px;
+        line-height:30px;
+        text-align: center;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        background-color: color(LightBlue,700);
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        transition: background-color linear 200ms;
+        cursor: default;
+    }
+    .fieldPopupButtonDiv:hover {
+        background-color: color(LightBlue,500);
+    }
+
+    .fieldPopupButtonDiv:active {
+        background-color: color(LightBlue,700);
+    }
+
+.comboFieldIcon {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+    visibility: hidden;
+}
+

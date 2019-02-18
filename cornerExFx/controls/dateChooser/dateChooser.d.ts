@@ -1,0 +1,31 @@
+import { DisplayObject } from "../../core/displayObject";
+export declare class DateChooser extends DisplayObject {
+    private labelY;
+    private labelM;
+    private static isCSSLoaded;
+    private isShowTimeEditor;
+    private hNumber;
+    private mNumber;
+    private today;
+    tagFunction: (date: Date) => string;
+    constructor(isShowTimeEditor?: boolean);
+    readonly width: number;
+    readonly height: number;
+    private dEvent;
+    protected buttonDate: HTMLDivElement[];
+    private date;
+    private _selectDate;
+    selectedDate: Date;
+    private getNewDay;
+    private isEqualDay;
+    private _year;
+    year: number;
+    private _month;
+    month: number;
+    private _hours;
+    hours: number;
+    private _minutes;
+    minutes: number;
+    private setHM;
+    private setYM;
+}

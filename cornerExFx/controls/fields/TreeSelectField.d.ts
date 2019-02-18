@@ -1,0 +1,33 @@
+import { BrowseFieldBase } from "./browseFieldBase";
+import { ListItemData } from "../listBox/listBase";
+export declare class TreeSelectField extends BrowseFieldBase<ListItemData> {
+    private treeView;
+    loadItemFunciont: (id: any, callback: (itemData: ListItemData) => void) => void;
+    loadItemByXmlDataProviderFunciont: (id: any, callback: (xmlDataProvider: Element) => void) => void;
+    loadItemPathFunciont: (id: any, callback: (path: string) => void) => void;
+    loadItemPathByXmlDataProviderFunciont: (id: any, callback: (xmlDataProvider: Element) => void) => void;
+    loadItemsFunciont: (id: any, callback: (id: any, itemsData: Array<ListItemData>) => void) => void;
+    loadItemsByXmlDataProviderFunciont: (id: any, callback: (id: any, xmlDataProvider: Element) => void) => void;
+    private loadItemCallback;
+    private loadItemByXmlDataProviderCallback;
+    private loadItemsCallback;
+    private loadItemsByXmlDataProviderCallback;
+    pathField: string;
+    protected _dataElement: Element;
+    xmlDataProvider: Element;
+    constructor();
+    protected openHandler(): void;
+    private loadItemsByPath;
+    private loadItemsByPathI;
+    private path;
+    private loadPathI;
+    private loadPathIItems;
+    value: ListItemData;
+    protected _value: ListItemData;
+    protected setInputValue(): void;
+    protected setXMLValue(): void;
+    protected selectedHandler(): void;
+    private _minLenght;
+    minLenght: number;
+    verify(): void;
+}
